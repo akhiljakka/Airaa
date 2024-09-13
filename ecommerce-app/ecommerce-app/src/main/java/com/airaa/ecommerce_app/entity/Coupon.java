@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import java.util.Set;
 
 @Entity
+@Table(name = "coupons")
 public class Coupon {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
